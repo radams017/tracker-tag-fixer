@@ -1,7 +1,7 @@
 // collect and fix tags for GTM
 function fixGTM(){
     var gtmTag = prompt("Paste tag code below.");
-    var referrer = prompt("Paste referrer below.");
+    var referrer = prompt("Paste referrer to add/encode below.");
     var encodedReferrer = '?referer=' + encodeURIComponent(referrer);
     var insert = (main_string, ins_string, pos) => {
         if(typeof(pos) == 'undefined') {
