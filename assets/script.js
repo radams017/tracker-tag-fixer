@@ -6,7 +6,7 @@ function insertReferrerPolicy(tag) {
 
 function insertRefererParameter(tag, ref) {
   var tagMatcher = /(sifitag\/[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12})/
-  return tag.replace(tagMatcher, `$1?referer=${}`)
+  return tag.replace(tagMatcher, `$1?referer=${ref}`)
 }
 
 function fixGTM(){
