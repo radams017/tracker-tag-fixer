@@ -1,39 +1,38 @@
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css">
-    <title>Tag Fixer</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/style.css">
+  <title>Tag Fixer</title>
 </head>
 <body>
-    <div class="container">
-        <div class="flex-header">
-        <header>
-            <h1>Tag Fixer</h1>
-            <p>Click an applicable "Fix Tag" to be guided through the process of fixing your tag in line with the new standard referrer policy.</p>
-        </header>
-        </div>
-        <div class="card">
-            <div class="card-header">
-                <h2>Output</h2>
-            </div>
-            <div class="card-body">
-                <textarea
-                readonly
-                id="tag"
-                placeholder="Fixed Tag Will Appear Here"
-                aria-label="Fixed Tag"
-                ></textarea>
-            </div>
-            <div class="card-footer">
-                <button id="GTM" class="btn">Fix Tag - GTM</button>
-                <button id="NO-GTM" class="btn">Fix Tag - No GTM</button>
-                <button id="CLEAR" class="btn">Clear Content</button>
-            </div>
-
-        </div>
+  <div class="container">
+    <div class="flex-header">
+    <header>
+      <h1>Tag Fixer</h1>
+      <p>Click an applicable "Fix Tag" to be guided through the process of fixing your tag in line with the new standard referrer policy.</p>
+    </header>
     </div>
-<script type=text/javascript src="./assets/script.js"></script>
+    <div class="card">
+      <div class="card-header">
+        <h2>Output</h2>
+      </div>
+      <div class="card-body">
+        <textarea
+        readonly
+        id="tag"
+        placeholder="Fixed Tag Will Appear Here"
+        aria-label="Fixed Tag"
+        ></textarea>
+      </div>
+      <div class="card-footer">
+        <button id="GTM" class="btn">Fix Tag - GTM</button>
+        <button id="NO-GTM" class="btn">Fix Tag - No GTM</button>
+        <button id="CLEAR" class="btn">Clear Content</button>
+      </div>
+    </div>
+  </div>
+  <script src="./assets/script.js"></script>
 </body>
 </html>
